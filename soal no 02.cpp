@@ -21,7 +21,7 @@ double mencariMedian(int data[], int panjangdata) {
         return mediangenap;
     }
     else {
-        double medianganjil = data[(panjangdata +1)/ 2];
+        double medianganjil = data[(panjangdata -1)/ 2];
         return medianganjil;
     }
 }
